@@ -1,0 +1,129 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+*.local
+
+# Compiled JavaScript
+*.vue.js
+*.js.js
+
+# TypeScript
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.template
+.envrc
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Secrets and API keys
+secrets/
+*.secret
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*.cert
+*.cer
+id_rsa
+id_rsa.pub
+id_dsa
+id_dsa.pub
+id_ecdsa
+id_ecdsa.pub
+id_ed25519
+id_ed25519.pub
+*.keychain
+*.keystore
+
+# Configuration files that may contain secrets
+config.local.*
+*.config.local.*
+.secrets.*
+credentials.json
+service-account.json
+firebase-config.json
+google-services.json
+GoogleService-Info.plist
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Testing
+coverage/
+.nyc_output/
+.jest/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Backup files
+*.bak
+*.backup
+*~
+*.orig
+
+# Markdown files (except README.md)
+*.md
+!README.md
+
+# Cloudflare Pages and game assets
+cloudflare-pages.toml
+public/games/
+public/_redirects
+public/manifest.webmanifest
+
+# Build and dependency files
+.pnp
+.pnp.js
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.yarn/versions
